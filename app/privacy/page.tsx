@@ -24,7 +24,7 @@ export default function Privacy() {
             Balcones Drive, Suite 100, Austin, TX 78731. You can reach us at{" "}
             <a
               href="mailto:murphylan@hotmail.com"
-              className="font-medium text-blue-800 hover:underline"
+              className="font-medium text-orange-700 hover:underline"
             >
               murphylan@hotmail.com
             </a>{" "}
@@ -94,7 +94,7 @@ export default function Privacy() {
             us to correct it, or ask us to delete it. Write to{" "}
             <a
               href="mailto:murphylan@hotmail.com"
-              className="font-medium text-blue-800 hover:underline"
+              className="font-medium text-orange-700 hover:underline"
             >
               murphylan@hotmail.com
             </a>

@@ -90,14 +90,14 @@ export default function Services() {
           >
             <div className="flex flex-wrap items-baseline justify-between gap-3">
               <h2 className="text-2xl font-bold tracking-tight">{o.name}</h2>
-              <p className="text-sm font-semibold text-blue-800">{o.price}</p>
+              <p className="text-sm font-semibold text-orange-700">{o.price}</p>
             </div>
             <p className="mt-1 text-sm text-slate-500">{o.timeline}</p>
             <p className="mt-4 max-w-3xl leading-7 text-slate-600">{o.body}</p>
             <ul className="mt-4 space-y-2">
               {o.bullets.map((b) => (
                 <li key={b} className="flex gap-3 text-sm leading-6 text-slate-700">
-                  <span className="mt-1 text-blue-700">✓</span>
+                  <span className="mt-1 text-orange-700">✓</span>
                   <span>{b}</span>
                 </li>
               ))}
@@ -105,7 +105,7 @@ export default function Services() {
             {o.cta && (
               <Link
                 href={o.cta.href}
-                className="mt-5 inline-block text-sm font-semibold text-blue-800 hover:underline"
+                className="mt-5 inline-block text-sm font-semibold text-orange-700 hover:underline"
               >
                 {o.cta.label}
               </Link>
@@ -140,14 +140,14 @@ export default function Services() {
         ))}
       </div>
 
-      <div className="mt-12 rounded-lg bg-blue-800 p-8 text-center">
+      <div className="mt-12 rounded-lg bg-orange-700 p-8 text-center">
         <p className="text-lg font-semibold text-white">
           Not sure which one you need? That is what the architecture review is
           for.
         </p>
         <Link
           href="/architecture-review"
-          className="mt-4 inline-block rounded-md bg-white px-6 py-3 text-sm font-semibold text-blue-900 hover:bg-blue-50"
+          className="mt-4 inline-block rounded-md bg-white px-6 py-3 text-sm font-semibold text-orange-900 hover:bg-orange-50"
         >
           Start with an architecture review →
         </Link>

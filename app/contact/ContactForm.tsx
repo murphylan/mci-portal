@@ -32,7 +32,7 @@ export default function ContactForm() {
   }
 
   const inputClass =
-    "w-full rounded-md border border-slate-300 px-4 py-2.5 text-sm focus:border-blue-700 focus:outline-none focus:ring-1 focus:ring-blue-700";
+    "w-full rounded-md border border-slate-300 px-4 py-2.5 text-sm focus:border-orange-700 focus:outline-none focus:ring-1 focus:ring-orange-700";
 
   return (
     <form onSubmit={handleSubmit} className="space-y-5">
@@ -105,7 +105,7 @@ export default function ContactForm() {
       </div>
       <button
         type="submit"
-        className="rounded-md bg-blue-800 px-6 py-3 text-sm font-semibold text-white hover:bg-blue-900"
+        className="rounded-md bg-orange-700 px-6 py-3 text-sm font-semibold text-white hover:bg-orange-900"
       >
         Send inquiry
       </button>

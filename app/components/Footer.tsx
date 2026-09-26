@@ -22,14 +22,14 @@ export default function Footer() {
             <br />
             <a
               href="tel:+13465158280"
-              className="hover:text-blue-800"
+              className="hover:text-orange-700"
             >
               346-515-8280
             </a>
             <br />
             <a
               href="mailto:murphylan@hotmail.com"
-              className="hover:text-blue-800"
+              className="hover:text-orange-700"
             >
               murphylan@hotmail.com
             </a>
@@ -39,22 +39,22 @@ export default function Footer() {
           <p className="text-sm font-bold text-slate-900">Company</p>
           <ul className="mt-2 space-y-2 text-sm text-slate-600">
             <li>
-              <Link href="/about" className="hover:text-blue-800">
+              <Link href="/about" className="hover:text-orange-700">
                 About
               </Link>
             </li>
             <li>
-              <Link href="/services" className="hover:text-blue-800">
+              <Link href="/services" className="hover:text-orange-700">
                 Services
               </Link>
             </li>
             <li>
-              <Link href="/privacy" className="hover:text-blue-800">
+              <Link href="/privacy" className="hover:text-orange-700">
                 Privacy Policy
               </Link>
             </li>
             <li>
-              <Link href="/terms" className="hover:text-blue-800">
+              <Link href="/terms" className="hover:text-orange-700">
                 Terms of Service
               </Link>
             </li>

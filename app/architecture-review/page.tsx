@@ -40,7 +40,7 @@ const DELIVERABLES = [
 export default function ArchitectureReview() {
   return (
     <div className="mx-auto max-w-6xl px-6 py-14">
-      <p className="text-sm font-semibold uppercase tracking-widest text-blue-700">
+      <p className="text-sm font-semibold uppercase tracking-widest text-orange-700">
         Fixed price · Fixed scope · 2–4 weeks
       </p>
       <h1 className="mt-3 text-3xl font-bold tracking-tight sm:text-4xl">
@@ -55,7 +55,7 @@ export default function ArchitectureReview() {
       <ol className="mt-6 space-y-6">
         {STEPS.map((s, i) => (
           <li key={s.title} className="flex gap-5">
-            <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-blue-800 text-sm font-bold text-white">
+            <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-orange-700 text-sm font-bold text-white">
               {i + 1}
             </span>
             <div>
@@ -70,7 +70,7 @@ export default function ArchitectureReview() {
       <ul className="mt-6 space-y-3">
         {DELIVERABLES.map((d) => (
           <li key={d} className="flex gap-3 leading-7 text-slate-700">
-            <span className="mt-1 text-blue-700">✓</span>
+            <span className="mt-1 text-orange-700">✓</span>
             <span>{d}</span>
           </li>
         ))}
@@ -99,7 +99,7 @@ export default function ArchitectureReview() {
       <h2 className="mt-12 text-2xl font-bold tracking-tight">
         Price and timeline
       </h2>
-      <div className="mt-6 rounded-lg border border-blue-200 bg-blue-50 p-8">
+      <div className="mt-6 rounded-lg border border-orange-200 bg-orange-50 p-8">
         <p className="text-lg leading-8 text-slate-800">
           Most reviews land between{" "}
           <span className="font-bold">$3,000 and $8,000</span>, depending on
@@ -108,16 +108,16 @@ export default function ArchitectureReview() {
         </p>
       </div>
 
-      <div className="mt-10 rounded-lg bg-blue-800 p-8 text-center">
+      <div className="mt-10 rounded-lg bg-orange-700 p-8 text-center">
         <p className="text-lg font-semibold text-white">
           Book a 30-minute scoping call.
         </p>
-        <p className="mt-2 text-blue-100">
+        <p className="mt-2 text-orange-100">
           We will agree on scope and a fixed price — no obligation.
         </p>
         <Link
           href="/contact"
-          className="mt-5 inline-block rounded-md bg-white px-6 py-3 text-sm font-semibold text-blue-900 hover:bg-blue-50"
+          className="mt-5 inline-block rounded-md bg-white px-6 py-3 text-sm font-semibold text-orange-900 hover:bg-orange-50"
         >
           Contact us →
         </Link>

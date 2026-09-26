@@ -31,7 +31,7 @@ export default function Contact() {
               <p>
                 <a
                   href="tel:+13465158280"
-                  className="font-medium text-blue-800 hover:underline"
+                  className="font-medium text-orange-700 hover:underline"
                 >
                   346-515-8280
                 </a>
@@ -39,7 +39,7 @@ export default function Contact() {
               <p>
                 <a
                   href="mailto:murphylan@hotmail.com"
-                  className="font-medium text-blue-800 hover:underline"
+                  className="font-medium text-orange-700 hover:underline"
                 >
                   murphylan@hotmail.com
                 </a>

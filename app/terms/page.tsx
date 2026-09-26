@@ -129,7 +129,7 @@ export default function Terms() {
             Questions about these terms:{" "}
             <a
               href="mailto:murphylan@hotmail.com"
-              className="font-medium text-blue-800 hover:underline"
+              className="font-medium text-orange-700 hover:underline"
             >
               murphylan@hotmail.com
             </a>
