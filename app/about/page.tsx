@@ -42,10 +42,10 @@ export default function About() {
               key={f.label}
               className="rounded-lg border border-slate-200 bg-slate-50 p-4"
             >
-              <dt className="text-xs font-semibold uppercase tracking-wider text-slate-500">
+              <dt className="text-sm font-semibold uppercase tracking-wider text-slate-500">
                 {f.label}
               </dt>
-              <dd className="mt-1 text-sm font-medium text-slate-900">
+              <dd className="mt-1 text-base font-medium text-slate-900">
                 {f.value}
               </dd>
             </div>
@@ -57,7 +57,7 @@ export default function About() {
         <h2 className="text-2xl font-bold tracking-tight">Leadership</h2>
         <div className="mt-6 max-w-3xl rounded-lg border border-slate-200 bg-white p-8">
           <h3 className="text-xl font-bold">Murphy</h3>
-          <p className="mt-1 text-sm font-medium text-slate-500">
+          <p className="mt-1 text-base font-medium text-slate-500">
             Founder and Chief Technology Officer
           </p>
           <p className="mt-4 leading-8 text-slate-600">

@@ -5,17 +5,17 @@ export default function Footer() {
     <footer className="border-t border-slate-200 bg-slate-50">
       <div className="mx-auto grid max-w-6xl gap-8 px-6 py-10 md:grid-cols-3">
         <div>
-          <p className="text-sm font-bold text-slate-900">
+          <p className="text-base font-bold text-slate-900">
             Murphy Code Innovations, LLC
           </p>
-          <p className="mt-2 text-sm leading-6 text-slate-600">
+          <p className="mt-2 text-base leading-6 text-slate-600">
             Enterprise software architecture, cloud-native systems, and DevOps
             engineering. Austin, Texas.
           </p>
         </div>
         <div>
-          <p className="text-sm font-bold text-slate-900">Contact</p>
-          <address className="mt-2 text-sm not-italic leading-6 text-slate-600">
+          <p className="text-base font-bold text-slate-900">Contact</p>
+          <address className="mt-2 text-base not-italic leading-6 text-slate-600">
             5900 Balcones Drive, Suite 100
             <br />
             Austin, TX 78731
@@ -36,8 +36,8 @@ export default function Footer() {
           </address>
         </div>
         <div>
-          <p className="text-sm font-bold text-slate-900">Company</p>
-          <ul className="mt-2 space-y-2 text-sm text-slate-600">
+          <p className="text-base font-bold text-slate-900">Company</p>
+          <ul className="mt-2 space-y-2 text-base text-slate-600">
             <li>
               <Link href="/about" className="hover:text-orange-700">
                 About
@@ -62,7 +62,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="border-t border-slate-200">
-        <div className="mx-auto flex max-w-6xl flex-col gap-1 px-6 py-4 text-xs text-slate-500 sm:flex-row sm:items-center sm:justify-between">
+        <div className="mx-auto flex max-w-6xl flex-col gap-1 px-6 py-4 text-sm text-slate-500 sm:flex-row sm:items-center sm:justify-between">
           <span>© 2026 Murphy Code Innovations, LLC. All rights reserved.</span>
           <span>Austin, Texas · Founded 2026</span>
         </div>

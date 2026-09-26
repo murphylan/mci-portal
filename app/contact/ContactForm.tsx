@@ -32,13 +32,13 @@ export default function ContactForm() {
   }
 
   const inputClass =
-    "w-full rounded-md border border-slate-300 px-4 py-2.5 text-sm focus:border-orange-700 focus:outline-none focus:ring-1 focus:ring-orange-700";
+    "w-full rounded-md border border-slate-300 px-4 py-2.5 text-base focus:border-orange-700 focus:outline-none focus:ring-1 focus:ring-orange-700";
 
   return (
     <form onSubmit={handleSubmit} className="space-y-5">
       <div className="grid gap-5 sm:grid-cols-2">
         <div>
-          <label htmlFor="name" className="mb-1.5 block text-sm font-medium text-slate-700">
+          <label htmlFor="name" className="mb-1.5 block text-base font-medium text-slate-700">
             Name *
           </label>
           <input
@@ -51,7 +51,7 @@ export default function ContactForm() {
           />
         </div>
         <div>
-          <label htmlFor="company" className="mb-1.5 block text-sm font-medium text-slate-700">
+          <label htmlFor="company" className="mb-1.5 block text-base font-medium text-slate-700">
             Company
           </label>
           <input
@@ -64,7 +64,7 @@ export default function ContactForm() {
         </div>
       </div>
       <div>
-        <label htmlFor="email" className="mb-1.5 block text-sm font-medium text-slate-700">
+        <label htmlFor="email" className="mb-1.5 block text-base font-medium text-slate-700">
           Email *
         </label>
         <input
@@ -78,7 +78,7 @@ export default function ContactForm() {
         />
       </div>
       <div>
-        <label htmlFor="system" className="mb-1.5 block text-sm font-medium text-slate-700">
+        <label htmlFor="system" className="mb-1.5 block text-base font-medium text-slate-700">
           What system are you having trouble with? *
         </label>
         <textarea
@@ -92,7 +92,7 @@ export default function ContactForm() {
         />
       </div>
       <div>
-        <label htmlFor="referral" className="mb-1.5 block text-sm font-medium text-slate-700">
+        <label htmlFor="referral" className="mb-1.5 block text-base font-medium text-slate-700">
           How did you hear about us?
         </label>
         <input
@@ -105,11 +105,11 @@ export default function ContactForm() {
       </div>
       <button
         type="submit"
-        className="rounded-md bg-orange-700 px-6 py-3 text-sm font-semibold text-white hover:bg-orange-900"
+        className="rounded-md bg-orange-700 px-6 py-3 text-base font-semibold text-white hover:bg-orange-900"
       >
         Send inquiry
       </button>
-      <p className="text-xs leading-5 text-slate-500">
+      <p className="text-sm leading-5 text-slate-500">
         Submitting opens your email app addressed to {CONTACT_EMAIL}. We reply
         to every inquiry within one business day.
       </p>

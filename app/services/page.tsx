@@ -90,13 +90,13 @@ export default function Services() {
           >
             <div className="flex flex-wrap items-baseline justify-between gap-3">
               <h2 className="text-2xl font-bold tracking-tight">{o.name}</h2>
-              <p className="text-sm font-semibold text-orange-700">{o.price}</p>
+              <p className="text-base font-semibold text-orange-700">{o.price}</p>
             </div>
-            <p className="mt-1 text-sm text-slate-500">{o.timeline}</p>
+            <p className="mt-1 text-base text-slate-500">{o.timeline}</p>
             <p className="mt-4 max-w-3xl leading-7 text-slate-600">{o.body}</p>
             <ul className="mt-4 space-y-2">
               {o.bullets.map((b) => (
-                <li key={b} className="flex gap-3 text-sm leading-6 text-slate-700">
+                <li key={b} className="flex gap-3 text-base leading-6 text-slate-700">
                   <span className="mt-1 text-orange-700">✓</span>
                   <span>{b}</span>
                 </li>
@@ -105,7 +105,7 @@ export default function Services() {
             {o.cta && (
               <Link
                 href={o.cta.href}
-                className="mt-5 inline-block text-sm font-semibold text-orange-700 hover:underline"
+                className="mt-5 inline-block text-base font-semibold text-orange-700 hover:underline"
               >
                 {o.cta.label}
               </Link>
@@ -127,12 +127,12 @@ export default function Services() {
             className="rounded-lg border border-slate-200 bg-slate-50 p-6"
           >
             <h3 className="text-base font-semibold">{a.title}</h3>
-            <p className="mt-2 text-sm leading-7 text-slate-600">{a.body}</p>
-            <p className="mt-3 text-sm leading-6 text-slate-700">
+            <p className="mt-2 text-base leading-7 text-slate-600">{a.body}</p>
+            <p className="mt-3 text-base leading-6 text-slate-700">
               <span className="font-semibold">When you need this: </span>
               {a.when}
             </p>
-            <p className="mt-1 text-sm leading-6 text-slate-700">
+            <p className="mt-1 text-base leading-6 text-slate-700">
               <span className="font-semibold">What you get: </span>
               {a.get}
             </p>
@@ -147,7 +147,7 @@ export default function Services() {
         </p>
         <Link
           href="/architecture-review"
-          className="mt-4 inline-block rounded-md bg-white px-6 py-3 text-sm font-semibold text-orange-900 hover:bg-orange-50"
+          className="mt-4 inline-block rounded-md bg-white px-6 py-3 text-base font-semibold text-orange-900 hover:bg-orange-50"
         >
           Start with an architecture review →
         </Link>

@@ -22,12 +22,12 @@ export default function Contact() {
         <div className="lg:col-span-2">
           <div className="rounded-lg border border-slate-200 bg-slate-50 p-8">
             <h2 className="text-lg font-bold">Murphy Code Innovations, LLC</h2>
-            <address className="mt-4 text-sm not-italic leading-7 text-slate-600">
+            <address className="mt-4 text-base not-italic leading-7 text-slate-600">
               5900 Balcones Drive, Suite 100
               <br />
               Austin, TX 78731
             </address>
-            <div className="mt-4 space-y-2 text-sm">
+            <div className="mt-4 space-y-2 text-base">
               <p>
                 <a
                   href="tel:+13465158280"
@@ -45,7 +45,7 @@ export default function Contact() {
                 </a>
               </p>
             </div>
-            <p className="mt-6 border-t border-slate-200 pt-4 text-xs leading-6 text-slate-500">
+            <p className="mt-6 border-t border-slate-200 pt-4 text-sm leading-6 text-slate-500">
               Prefer to talk first? Call during US Central business hours and
               ask for Murphy.
             </p>

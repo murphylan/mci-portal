@@ -40,7 +40,7 @@ const DELIVERABLES = [
 export default function ArchitectureReview() {
   return (
     <div className="mx-auto max-w-6xl px-6 py-14">
-      <p className="text-sm font-semibold uppercase tracking-widest text-orange-700">
+      <p className="text-base font-semibold uppercase tracking-widest text-orange-700">
         Fixed price · Fixed scope · 2–4 weeks
       </p>
       <h1 className="mt-3 text-3xl font-bold tracking-tight sm:text-4xl">
@@ -55,7 +55,7 @@ export default function ArchitectureReview() {
       <ol className="mt-6 space-y-6">
         {STEPS.map((s, i) => (
           <li key={s.title} className="flex gap-5">
-            <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-orange-700 text-sm font-bold text-white">
+            <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-orange-700 text-base font-bold text-white">
               {i + 1}
             </span>
             <div>
@@ -82,14 +82,14 @@ export default function ArchitectureReview() {
       <div className="mt-6 grid gap-6 md:grid-cols-2">
         <div className="rounded-lg border border-slate-200 bg-slate-50 p-6">
           <h3 className="font-semibold">Not a sales document.</h3>
-          <p className="mt-2 text-sm leading-7 text-slate-600">
+          <p className="mt-2 text-base leading-7 text-slate-600">
             If the answer is “your architecture is fine, fix your release
             process,” that is what the report says.
           </p>
         </div>
         <div className="rounded-lg border border-slate-200 bg-slate-50 p-6">
           <h3 className="font-semibold">Not a commitment.</h3>
-          <p className="mt-2 text-sm leading-7 text-slate-600">
+          <p className="mt-2 text-base leading-7 text-slate-600">
             The review does not commit either side to a larger engagement. It
             tells both of us whether one is worth doing.
           </p>
@@ -117,7 +117,7 @@ export default function ArchitectureReview() {
         </p>
         <Link
           href="/contact"
-          className="mt-5 inline-block rounded-md bg-white px-6 py-3 text-sm font-semibold text-orange-900 hover:bg-orange-50"
+          className="mt-5 inline-block rounded-md bg-white px-6 py-3 text-base font-semibold text-orange-900 hover:bg-orange-50"
         >
           Contact us →
         </Link>

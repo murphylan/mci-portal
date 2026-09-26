@@ -18,10 +18,10 @@ export default function Header() {
             className="h-7 w-auto"
           />
           <span className="flex flex-col leading-tight">
-            <span className="text-sm font-bold tracking-tight text-[#0a1830]">
+            <span className="text-base font-bold tracking-tight text-[#0a1830]">
               Murphy Code Innovations, LLC
             </span>
-            <span className="text-[11px] text-slate-500">
+            <span className="text-sm text-slate-500">
               Enterprise Architecture &middot; Texas, USA
             </span>
           </span>
@@ -31,14 +31,14 @@ export default function Header() {
             <Link
               key={item.href}
               href={item.href}
-              className="text-sm font-medium text-slate-600 hover:text-orange-700"
+              className="text-base font-medium text-slate-600 hover:text-orange-700"
             >
               {item.label}
             </Link>
           ))}
           <Link
             href="/contact"
-            className="rounded-md bg-orange-600 px-4 py-2 text-sm font-semibold text-white hover:bg-orange-700"
+            className="rounded-md bg-orange-600 px-4 py-2 text-base font-semibold text-white hover:bg-orange-700"
           >
             Talk to an architect
           </Link>
@@ -46,13 +46,13 @@ export default function Header() {
         <nav className="flex items-center gap-4 md:hidden">
           <Link
             href="/services"
-            className="text-sm font-medium text-slate-600 hover:text-orange-700"
+            className="text-base font-medium text-slate-600 hover:text-orange-700"
           >
             Services
           </Link>
           <Link
             href="/contact"
-            className="rounded-md bg-orange-600 px-3 py-2 text-sm font-semibold text-white hover:bg-orange-700"
+            className="rounded-md bg-orange-600 px-3 py-2 text-base font-semibold text-white hover:bg-orange-700"
           >
             Talk to an architect
           </Link>
