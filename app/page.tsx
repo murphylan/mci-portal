@@ -87,11 +87,13 @@ function SystemMap() {
           <p className="text-xs font-semibold text-slate-200">{MAP_NODES[0].title}</p>
           <p className="mt-0.5 text-[10px] leading-4 text-slate-400">{MAP_NODES[0].sub}</p>
         </div>
-        <div className="row-span-2 rounded bg-orange-600 p-3">
-          <p className="text-xs font-semibold text-white">Architecture</p>
-          <p className="mt-0.5 text-[10px] leading-4 text-orange-100">
-            Decisions with reasons
-          </p>
+        <div className="row-span-2 flex items-center">
+          <div className="w-full rounded bg-orange-600 p-3">
+            <p className="text-xs font-semibold text-white">Architecture</p>
+            <p className="mt-0.5 text-[10px] leading-4 text-orange-100">
+              Decisions with reasons
+            </p>
+          </div>
         </div>
         <div className="rounded border border-slate-500/40 p-3">
           <p className="text-xs font-semibold text-slate-200">{MAP_NODES[1].title}</p>
