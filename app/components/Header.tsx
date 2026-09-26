@@ -11,12 +11,18 @@ export default function Header() {
   return (
     <header className="border-b border-orange-900/10 bg-[#faf8f4]">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
-        <Link href="/" className="flex items-center gap-2">
-          <span className="h-px w-6 bg-orange-600" />
-          <span className="text-xs font-semibold uppercase tracking-wider text-slate-700">
-            Enterprise Architecture
-            <span className="ml-1 font-normal normal-case tracking-normal text-slate-400">
-              Texas, USA
+        <Link href="/" className="flex items-center gap-2.5">
+          <img
+            src="/logo.png"
+            alt="Murphy Code Innovations, LLC logo"
+            className="h-7 w-auto"
+          />
+          <span className="flex flex-col leading-tight">
+            <span className="text-sm font-bold tracking-tight text-[#0a1830]">
+              Murphy Code Innovations, LLC
+            </span>
+            <span className="text-[11px] text-slate-500">
+              Enterprise Architecture &middot; Texas, USA
             </span>
           </span>
         </Link>
